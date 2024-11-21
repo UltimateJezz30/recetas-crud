@@ -1,0 +1,91 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/fondo-recetario.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    margin-top: auto;
+    width: 80%;
+}
+
+.recipe {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(15, 4, 4, 0);
+    border-radius: 8px;
+    width: 100%;
+}
+
+a, button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+a:hover, button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+input, textarea {
+    width: calc(100% - 30px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 16px;
+}
+  
